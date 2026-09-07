@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>20x20 Orc Map</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="game-shell">
+  <canvas id="game"></canvas>
+  <div class="hud">
+    <b>20 × 20 WORLD</b>
+    <span id="area">Outside</span>
+    <span class="hint">WASD / Arrows • Walk to the house door • E to enter/exit</span>
+  </div>
+  <div id="touch">
+    <button data-dir="up">▲</button>
+    <button data-dir="left">◀</button>
+    <button data-dir="down">▼</button>
+    <button data-dir="right">▶</button>
+    <button id="enterBtn">E</button>
+  </div>
+</div>
+<script src="js/game.js"></script>
+</body>
+</html>
